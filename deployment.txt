@@ -1,0 +1,13 @@
+sudo apt install -y nginx
+
+sudo nginx -s reload
+
+sudo nano /etc/nginx/sites-enabled/default => ctrl+o  enter ctrl+x
+
+sudo nginx -t => check nginx syntax is ok
+sudo nginx -s reload
+
+sudo apt install -y certbot python3-certbot-nginx
+sudo certbot --nginx -d www.ytdemo.com
+
+sudo certbot renew --dry-new

@@ -1,0 +1,15 @@
+
+
+git blame src/components/Form.tsx
+
+git remote set-url origin git@github.com:your-username/your-repo.git => set https to ssh
+
+git conflict pull.rebase false = > in  ec2 console
+
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+cat ~/.ssh/id_rsa.pub
+
+Test SSH Connection to GitHub => ssh -T git@github.com
+
+create env file => nano .env

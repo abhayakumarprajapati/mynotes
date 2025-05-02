@@ -47,3 +47,7 @@ cat ~/.ssh/id_rsa.pub
 **Test SSH Connection to GitHub** => ssh -T git@github.com
 
 create env file => nano .env
+
+# by mistake if you make a commit with other user name or you want to delete last commit
+git reset --hard HEAD~1
+git push --force

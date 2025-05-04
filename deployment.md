@@ -13,3 +13,6 @@ sudo certbot --nginx -d www.ytdemo.com
 sudo certbot renew --dry-new
 
 git clone git@github.com:abhayakumarprajapati/Redis-Tutorial.git
+
+# after taking pull  in ec2 ubuntu 
+pm2 restart all => to restart your project so that changes reflected in live

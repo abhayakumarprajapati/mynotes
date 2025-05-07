@@ -19,22 +19,22 @@ YouTube: Tech Dummies Narayan, Gaurav Sen
 Learn how these work and how they’re used in real systems:
 
 Component	Topics
-Load Balancer	L4 vs L7, HAProxy, NGINX
-Caching	Redis, Memcached, CDN
-Database	SQL vs NoSQL, Sharding, Replication
-Message Queues	Kafka, RabbitMQ, SQS
-Storage	Blob storage (S3), file systems
-Data Models	Relational, Document, Key-value
-Rate Limiting	Token bucket, Leaky bucket
+Load Balancer =>	L4 vs L7, HAProxy, NGINX
+Caching =>	Redis, Memcached, CDN
+Database =>	SQL vs NoSQL, Sharding, Replication
+Message Queues =>	Kafka, RabbitMQ, SQS
+Storage =>	Blob storage (S3), file systems
+Data Models =>	Relational, Document, Key-value
+Rate Limiting =>	Token bucket, Leaky bucket
 
 🔹 3. Learn Networking Fundamentals
 Understand what happens when a request travels from browser to server:
 
-HTTP/HTTPS, DNS, TCP/IP
+- HTTP/HTTPS, DNS, TCP/IP
 
-REST vs WebSocket
+- REST vs WebSocket
 
-CDN, Reverse Proxy
+- CDN, Reverse Proxy
 
 🔹 4. Explore Architectural Patterns
 Familiarize yourself with real-world system architectures:

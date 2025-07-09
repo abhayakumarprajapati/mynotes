@@ -51,3 +51,12 @@ create env file => nano .env
 # by mistake if you make a commit with other user name or you want to delete last commit
 git reset --hard HEAD~1
 git push --force
+
+
+# Here's exactly what to do to merge your changes from developer-ab into main after pushing.
+
+git checkout main
+git pull origin main(optional)
+git merge developer-ab
+git push origin main
+

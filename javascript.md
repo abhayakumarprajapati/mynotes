@@ -315,3 +315,12 @@ console.log(map.size); // 1
 
 
 
+## date objects
+
+***i have a number 8 so i have to convert it into month which is string in javascript***
+
+const monthNumber = 8; // 8 means August (JavaScript months are 0-indexed, so 7 = August)
+
+const monthName = new Date(2025, monthNumber - 1, 1).toLocaleString('default', { month: 'long' });
+
+console.log(monthName); // "August"

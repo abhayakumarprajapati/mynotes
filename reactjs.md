@@ -52,3 +52,10 @@ List filtering
 Derived state
 
 Expensive math or formatting
+
+
+***error in form ***
+
+  <form onSubmit={form.handleSubmit(onSubmit, (errors) => {
+        console.log("❌ Validation errors:", errors);
+      })}
